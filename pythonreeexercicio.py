@@ -1,0 +1,7 @@
+nome=input('Digite seu nome completo')
+print( nome.upper())
+print( nome.lower())
+nome_sem_espaço= nome.replace(" ","")
+print(len(nome_sem_espaço))
+print(f' O seu nome tem {len(nome) - nome.count(" ")} letras')
+print(f'O seu primeiro nome tem {len(nome.split()[0])}')
